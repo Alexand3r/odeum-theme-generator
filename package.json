@@ -1,0 +1,22 @@
+{
+  "name": "odeum-theme-generator",
+	"version": "0.1.0",
+	"private": false,
+	"description": "Theme generator for ODEUM Code App",
+	"author": "Christian Broberg",
+	"license": "MIT",
+	"dependencies": {
+		"odeum-app": "^0.2.64",
+        "polished": "^1.9.0",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-scripts": "1.1.0",
+        "styled-components": "^2.4.0"
+	},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
